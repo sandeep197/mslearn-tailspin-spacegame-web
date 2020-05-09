@@ -10,9 +10,7 @@ pool:
   vmImage: 'ubuntu-16.04'
 
 variables:
-  #solution: '**/*.sln'
-  #buildPlatform: 'Any CPU'
-  #buildConfiguration: 'Release'
+  buildConfiguration: 'Release'
 
 steps:
 - task: UseDotNet@2
